@@ -21,12 +21,17 @@ By default, this app will serve data from [api.consumerfinance.gov](http://api.c
 Please use the [fork and pull](https://help.github.com/articles/using-pull-requests#fork--pull) collaborative model.
 
 1. Install [Node](http://nodejs.org/) and [Grunt](http://gruntjs.com/).
-2. Install [Bower] `npm install -g bower`
 1. [Fork this repo](https://github.com/cfpb/hmda-explorer/fork) to your personal GH account.
+1. [Fork the hmda-tech](https://github.com/cfpb/hmda-tech/fork) repo to your personal GH account.
 1. `git clone git@github.com:YOUR-USERNAME/hmda-explorer.git`
 1. `cd hmda-explorer`
 1. `npm install`
 1. `bower install`
+1. `cd src/static`
+1. `mkdir json`
+1. `cd json`
+1. `git clone git@github.com:YOUR-USERNAME/hmda-tech.git`
+1. `cd ../../../`
 1. `grunt build`
 1. `grunt`
 1. Open `localhost:8000` in a browser.
@@ -44,7 +49,12 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+ * 2016-11-08   [v2.4.1](../../tree/v2.4.1)   Resolves an issue with deprecated analytics tracker
+ * 2016-11-01   [v2.4.0](../../tree/v2.4.0)   Adds an announcement about 2017 data and a DES tool.
+ * 2016-09-29   [v2.3.1](../../tree/v2.3.1)   A small update to one of the URLs for CFPB Press Release
+ * 2016-09-29   [v2.3.0](../../tree/v2.3.0)   Incorporated 2015 HMDA data Updated alert formatting / wording Bugfixes for census tracts URL parameters
  * 2016-07-21   [v2.2.2](../../tree/v2.2.2)   Remove old contact phone number.
+ * 2016-07-13   [v2.2.1](../../tree/v2.2.1)   A quick update to the reg link. This link is a better version to link to.
  * 2016-02-19   [v2.1.5](../../tree/v2.1.5)   Added in branding elements for the FFIEC.
  * 2016-02-17   [v2.1.4](../../tree/v2.1.4)   Added 2017 and 2018 file specifications for hmda filers. Updated content on for-filers page.
  * 2016-01-21   [v2.1.3](../../tree/v2.1.3)   Fixed release tag. Updated code docs.
@@ -129,4 +139,4 @@ For further details, please see: http://www.consumerfinance.gov/developers/sourc
 
 ---
 
-*This file was generated on Thu Jul 21 2016 15:35:34.*
+*This file was generated on Tue Nov 08 2016 08:58:28.*

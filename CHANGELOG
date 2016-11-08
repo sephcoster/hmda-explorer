@@ -1,7 +1,34 @@
+v2.4.1:
+  date: 2016-11-08
+  changes:
+    - Resolves an issue with deprecated analytics tracker
+
+v2.4.0:
+  date: 2016-11-01
+  changes:
+    - Adds an announcement about 2017 data and a DES tool.
+
+v2.3.1:
+  date: 2016-09-29
+  changes:
+    - A small update to one of the URLs for CFPB Press Release
+
+v2.3.0:
+  date: 2016-09-29
+  changes:
+    - Incorporated 2015 HMDA data
+    - Updated alert formatting / wording
+    - Bugfixes for census tracts URL parameters
+
 v2.2.2:
   date: 2016-07-21
   changes:
     - Remove old contact phone number.
+
+v2.2.1:
+  date: 2016-07-13
+  changes:
+    - A quick update to the reg link. This link is a better version to link to.
 
 v2.1.5:
   date: 2016-02-19
